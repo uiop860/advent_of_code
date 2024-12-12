@@ -5,7 +5,7 @@ from typing import Literal
 
 rules = []
 updates = []
-with open(os.getcwd() + "/day5/data.txt") as file:
+with open(os.getcwd() + "/2024/day5/data.txt") as file:
     for line in file:
         if "|" in line:
             rules.append(line.strip())
